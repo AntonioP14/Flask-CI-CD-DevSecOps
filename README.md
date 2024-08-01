@@ -5,21 +5,42 @@ This project is a micro application example using Python Flask with a CI/CD flow
 ## Project Structure
 
 flask_app/
-├── app/
-│ ├── init.py
-│ └── routes.py
-├── tests/
-│ ├── init.py
-│ ├── test_routes.py
-│ ├── test_integration.py
-├── .github/
-│ └── workflows/
-│ └── ci.yml
-├── venv/
+
+  ├── app/
+
+    │ ├── init.py
+
+    │ └── routes.py
+
+
+
+  ├── tests/
+
+    │ ├── init.py
+
+    │ ├── test_routes.py
+
+    │ ├── test_integration.py
+
+
+
+  ├── .github/
+
+    │ └── workflows/
+
+    │ └── ci.yml
+
+
+  ├── venv/
+
 ├── .flaskenv
+
 ├── .gitignore
+
 ├── .flake8
+
 ├── requirements.txt
+
 └── run.py
 
 
